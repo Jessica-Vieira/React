@@ -1,4 +1,4 @@
-export function Produto({dados}){
+export function Produto(...{dados}){
     return(
         <div>
             <h2>{dados.nome}</h2>
